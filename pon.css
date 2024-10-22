@@ -1,0 +1,122 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+}  
+
+nav{
+   background-color: green;
+   padding: 0px;
+   width: 1030px;
+   height: 40px;
+   margin-left: 100px;
+}
+
+a{
+  color:white;
+  font-size:22px;
+  font-weight: bold;
+  padding-top: 5px;
+  margin: 5px;
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 110px;
+
+}
+.container{
+ 
+   max-width: 1035px;  
+   display: grid;
+   margin-left:100px;
+  
+   grid-template-columns:250px 250px 250px 250px ;
+   gap: 10px;
+   grid-template-rows: 500px 150px 150px 150px;
+ }
+ 
+   .container div{
+       border-radius: 25px; 
+  }  
+   .item:nth-child(1){
+       grid-column: 1/5;
+       background-image: url(pontiac-images/pon-b-w.jpg);
+       background-size: cover;
+       background-position: center;
+       border-radius: 0;
+       text-align: center;
+       padding-top: 185px;
+       font-size: 55px;
+       color:gold;
+       
+     
+    }  
+    .item:nth-child(2){
+       background-image: url(pontiac-images/pon-1.jpg);
+       background-size: cover;
+       background-position: center;
+    }
+    .item:nth-child(3){
+       background-image: url(pontiac-images/pon-2.jpg);
+       background-size: cover;
+       background-position: center;
+    }
+    .item:nth-child(4){
+       background-image: url(pontiac-images/pon-3.jpg); 
+       background-size: cover;
+       background-position: center;
+     }
+
+     .item:nth-child(5){
+       background-image: url(pontiac-images/pon-4.jpg);
+       background-size: cover;
+       background-position: center;
+    }
+
+     .item:nth-child(6){
+       background-image: url(pontiac-images/pon-5.jpg);
+       background-size: cover;
+       background-position: center;
+    }  
+    
+    .item:nth-child(7){
+       background-image: url(pontiac-images/pon-6.jpg);
+       background-size: cover;
+       background-position: center;
+    }     
+
+    .item:nth-child(8){
+       background-image: url(pontiac-images/pon-7.jpg);
+       background-size: cover;
+       background-position: center;
+    }     
+
+    .item:nth-child(9){
+       background-image: url(pontiac-images/pon-8.jpg);
+       background-size: cover;
+       background-position: center;
+    }     
+
+    .item:nth-child(10){
+       background-image: url(pontiac-images/pon-9.jpg);
+       background-size: cover;
+       background-position: center;
+    }     
+
+        .item:nth-child(11){
+       background-image: url(pontiac-images/pon-10.png);
+       background-size: cover;
+       background-position: center;
+    }     
+
+    .item:nth-child(12){
+       background-image: url(pontiac-images/pon-11.jpg);
+       background-size: cover;
+       background-position: center;
+    }     
+    
+    .item:nth-child(13){
+       background-image: url(pontiac-images/pon-12.jpg);
+       background-size: cover;
+       background-position: center;
+    }     
